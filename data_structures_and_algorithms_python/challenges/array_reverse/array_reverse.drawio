@@ -1,0 +1,52 @@
+<mxfile host="65bd71144e" modified="2020-11-10T05:37:06.567Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.51.0 Chrome/83.0.4103.122 Electron/9.3.3 Safari/537.36" version="13.6.5" etag="WBZCbotMvknpsSN59aLo">
+    <diagram id="T9f9H5FXGqmOsRpDfJjg" name="Page-1">
+        <mxGraphModel dx="1402" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="29" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="-20" y="10" width="870" height="870" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;h1&gt;Problem Domain&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;To write a function that takes in an array and reverses the order&lt;/li&gt;&lt;li&gt;Input array of numbers as argument of strings&lt;/li&gt;&lt;li&gt;Output array with elements in reverse&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="5" y="190" width="230" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Input" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="400" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Output" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="450" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="1" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="395" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="3" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="395" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="5" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="395" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="7" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="395" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="7" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="445" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="5" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="440" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="3" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="440" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="1" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="445" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="&lt;h1&gt;Algorithm&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Create an array&lt;/li&gt;&lt;li&gt;Create a function called reverse array that takes an array as an argument&lt;/li&gt;&lt;li&gt;Assign a variette to iterate throughthe array in reverse&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="190" width="230" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="&lt;h1&gt;PseudoCode&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Name the function reverse array&lt;/li&gt;&lt;li&gt;&lt;span&gt;Take an argument and list/assign&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Verify arrayis not empty&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;For loop to iterate the length of array in reverse to index 0&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Assign a new variable to the new array&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Print the array&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;variette to iterate throughthe array in reverse&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="430" width="230" height="240" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
