@@ -16,4 +16,5 @@
 - 
 
 ### Solution
-<img src = "assets/aww-board.png">
+<!-- <img src = "assets/aww-board.png"> -->
+[assets](./assets/aww-board.png)
