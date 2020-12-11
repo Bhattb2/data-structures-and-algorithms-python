@@ -2,7 +2,7 @@
 ## Algorithms
 - [Reverse an Array](dsa/challenges/array_reverse/README.md)
 
-- Shift an Array
+- [Shift an Array](dsa/challenges/array_reverse/README.md)
 _________________________
 
 This is a draft of the reading document: Draft: See solution
