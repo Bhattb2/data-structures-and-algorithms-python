@@ -1,8 +1,8 @@
 # Table of contents
 ## Algorithms
-- Reverse an Array
+- [Reverse an Array](dsa/challenges/array_reverse/README.md)
+
 - Shift an Array
-- Remove and Shift Array
 _________________________
 
 This is a draft of the reading document: Draft: See solution
