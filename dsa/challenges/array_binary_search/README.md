@@ -16,3 +16,4 @@ For the first fuction, loop through the array until value is found
                 return count
             count += 1
 
+![](assets/whiteboard.png)
