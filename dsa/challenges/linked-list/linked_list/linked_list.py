@@ -22,6 +22,7 @@ class Node:
     def __str__(self):
         return f"{self.value}, Next_Node={self.next_node}"
 
+    version = 1
 
 class LinkedList:
     """
