@@ -3,6 +3,10 @@
 - [Reverse an Array](dsa/challenges/array_reverse/README.md)
 
 - [Shift an Array](dsa/challenges/array_reverse/README.md)
+
+- [Implementation: Singly Linked Lists](dsa/challenges/linked-list/linked_list/README.md)
+
+
 _________________________
 
 This is a draft of the reading document: Draft: See solution
