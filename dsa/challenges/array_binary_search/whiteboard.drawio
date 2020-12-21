@@ -1,0 +1,31 @@
+<mxfile host="65bd71144e" modified="2020-12-16T22:26:51.333Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.52.0 Chrome/83.0.4103.122 Electron/9.3.5 Safari/537.36" etag="1mV_zKF1rejKVFXsXNMr" version="13.10.0" type="embed">
+    <diagram id="-2iTx4Ca7q2gm5Swqat_" name="Page-1">
+        <mxGraphModel dx="1173" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1400" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;&lt;b&gt;Probem Domain:&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;Write a function called &lt;i&gt;BinarySearch &lt;/i&gt;which takes in 2 parameters: a sorted and the search key. Wiithout utulicing an of the built-in methods available in Python, return the index od the array's element that is equal to the search key, or -1 if the element does not exist&lt;/div&gt;" style="whiteSpace=wrap;html=1;textDirection=ltr;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="280" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;b&gt;Algorithm:&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;create a function that takes in 2 paramaters, 1 list and 1 integer&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;the function looks for the integer in the array. if found, then it returns theindex. if not found, then it returns -1&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="40" width="240" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;b&gt;Code:&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;def binary(array, number):&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; middle = len(arr)/2&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; if number == arr(middle)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return middle&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; if number &amp;gt; arr(index).&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; arr = arr[middle:]&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; binary(arr, number)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; if number &amp;lt; arr[index]:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; arr = arr[:middle]&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; binary(arr, number)&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="40" width="160" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;Pseudocode:&lt;/b&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;Function binary(array, integer)&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;fiind array length&lt;/li&gt;&lt;li&gt;divvide length in half (/2) and assign value to variable middle&lt;/li&gt;&lt;li&gt;if integer&amp;nbsp; == middle returns index&lt;/li&gt;&lt;li&gt;if integer &amp;gt; middle: search beginning at middle until the end&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;if integer &amp;lt; middle: search beginning at 0 until the end&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="240" width="320" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Verification:&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;arr len/2 = 3&lt;br&gt;middle = 3&lt;br&gt;&lt;br&gt;arr[3] = 16&lt;br&gt;&lt;br&gt;number &amp;lt; 16&lt;br&gt;&lt;br&gt;arr = [4, 8, 15]" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="244" width="160" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Input: [4,8,15,16,23,42], 15&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;^&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Index 2&lt;br&gt;&lt;br&gt;Output: 2&lt;br&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=0;fontColor=#FF8000;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="190" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Big O&lt;/b&gt;&lt;br&gt;&lt;br&gt;time --&amp;gt; O(n)&lt;br&gt;space --&amp;gt; O(n)&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#FF8000;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="300" width="140" height="70" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
