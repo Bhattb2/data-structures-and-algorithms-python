@@ -38,8 +38,8 @@ def test_includes_value_true():
     ll.includes('Monday')
     assert True
 
-def test_include_value_false():
-    ll = LinkedList
+def test_includes_value_false():
+    ll = LinkedList()
     actual = ll.includes('November')
     expected = False
     assert actual == expected
