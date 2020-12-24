@@ -24,10 +24,6 @@ Write the following methods for the Linked List class:
 6. Can successfully insert a node after the last node of the linked list
 
 
-=======
-
-
->>>>>>> 63f910496224468a5fc76ef41e31877b7b5d6c5a
 ## Code Challenge #5
 ---
 Link to PR
