@@ -31,24 +31,24 @@ class LinkedList:
         This is to initializa the LinkedList
         """
         self.head = None
-    
 
     def __str__(self):
         """
         prints LinkedList 
         """
         return f"head: {self.head}"
-
     
+
     def insert(self, value):
         """
         Method to insert a node to the LinkedList.
         """
         node = Node(value)
-        
+    
         if self.head is not None:
             node.next_node = self.head
         self.head = node
+        
 
     
     def includes(self, value):
@@ -158,6 +158,80 @@ class LinkedList:
 
             
 
+
+    def append(self, value):
+        """
+        Appends a new node to the end of a Linked List
+        """
+        node = Node(value)
+
+        if self.head is None:
+            self.head = node
+            return
+
+        current = self.head
+
+        while current.next_node is not None:
+                current = current.next_node
+        current.next_node = node
+            
+        return node
+    
+    def insert_before(self, value, new_value):
+        """
+        Inserts a new node before a given node value
+        """
+
+        node = Node(new_value)
+
+        if self.head is None:
+            self.head = node
+            return 
+
+        current = self.head
+        
+        if current.value == value:
+            node.next_node = current
+            self.head = node
+            return node
+
+        while current.next_node:
+            if current.next_node.value == value:
+                node.next_node = current.next_node
+                current.next_node = node
+                return node
+            else:
+                return (f'Node with value of {value} does not exist')
+            current = current.next_node
+
+
+    def insert_after(self, value, new_value):
+        """
+        Inserts a new node after a given node value
+        """
+    
+        node = Node(new_value)
+
+        if self.head is None:
+            self.head = node
+            return
+        
+        current = self.head
+                
+        while current:
+            if current.value == value:
+                node.next_node = current.next_node
+                current.next_node = node
+                return node
+            if current.next_node == None:
+                return (f'Node with value of {value} does not exist')
+            current = current.next_node
+
+        
+
+
+
+        
 
 ll = LinkedList()
 ll.insert(2)

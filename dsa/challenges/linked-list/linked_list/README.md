@@ -1,5 +1,6 @@
 # Linked List
 
+<<<<<<< HEAD
 ## Code Challenge #7
 ---
 Link to PR:
@@ -23,6 +24,11 @@ Write a method for the Linked List class which takes a number, k, as a parameter
 ## Code Challenge #6
 ---
 Link to PR:
+=======
+## Code Challenge #6
+---
+Link to PR: 
+>>>>>>> 63f910496224468a5fc76ef41e31877b7b5d6c5a
 
 Write the following methods for the Linked List class:
 
@@ -33,7 +39,10 @@ Write the following methods for the Linked List class:
 ## White Board
 ---
 
+<<<<<<< HEAD
 ![](assets/ll_insertion.png)
+=======
+>>>>>>> 63f910496224468a5fc76ef41e31877b7b5d6c5a
 
 ## Tests
 ---
@@ -44,6 +53,11 @@ Write the following methods for the Linked List class:
 5. Can successfully insert after a node in the middle of the linked list
 6. Can successfully insert a node after the last node of the linked list
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 63f910496224468a5fc76ef41e31877b7b5d6c5a
 ## Code Challenge #5
 ---
 Link to PR
