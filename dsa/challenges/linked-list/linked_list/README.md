@@ -9,6 +9,8 @@ Write a method for the Linked List class which takes a number, k, as a parameter
 ## White Board
 ---
 
+![](assets/ll_kth_value.png)
+
 ## Tests
 ---
 1. Where k is greater than the length of the linked list
@@ -30,6 +32,8 @@ Write the following methods for the Linked List class:
 
 ## White Board
 ---
+
+![](assets/ll_insertion.png)
 
 ## Tests
 ---
