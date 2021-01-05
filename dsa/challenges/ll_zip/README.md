@@ -3,6 +3,9 @@ Write a function called mergeLists which takes two linked lists as arguments. Zi
 
 ## White Board
 
+![](../../assets/CC-8-Whiteboard.png)
+
+
 ## Tests
     ll1 = 1, 3, 2 ll2 = 5, 9, 4
 
