@@ -8,15 +8,15 @@ class  Node:
 
 
 class PseudoQueue:
-     """
-     standard queue class
-     """
-     def __init__(self):
+    """
+    standard queue class
+    """
+    def __init__(self):
          self.stck1 = Stack()
          self.stck2 = Stack()
 
 
-def enqueue(self, value):
+    def enqueue(self, value):
 
         while self.stck1.top:
             self.stck2.push(self.stck1.pop())
@@ -27,7 +27,7 @@ def enqueue(self, value):
             self.stck1.push(self.stck2.pop())
 
 
-def dequeue(self):
+    def dequeue(self):
         return self.stck1.pop()
 
 

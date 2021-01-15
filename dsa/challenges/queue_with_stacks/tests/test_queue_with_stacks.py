@@ -27,37 +27,37 @@ def test_enqueue_2():
     assert pseudo.stck1.peek() == 2
 
 
-# def test_dequeue():
-#     pseudo = PseudoQueue()
-#     pseudo.enqueue(1)
-#     pseudo.enqueue(2)
-#     pseudo.enqueue(3)
-#     pseudo.enqueue(4)
-#     pseudo.dequeue()
-#     assert pseudo.stck1.peek() == 2
+def test_dequeue():
+    pseudo = PseudoQueue()
+    pseudo.enqueue(1)
+    pseudo.enqueue(2)
+    pseudo.enqueue(3)
+    pseudo.enqueue(4)
+    pseudo.dequeue()
+    assert pseudo.stck1.peek() == 2
 
 
-# def test_dequeue_2():
-#     pseudo = PseudoQueue()
-#     pseudo.enqueue(1)
-#     pseudo.enqueue(2)
-#     pseudo.enqueue(3)
-#     pseudo.enqueue(4)
-#     pseudo.dequeue()
-#     pseudo.dequeue()
-#     pseudo.dequeue()
-#     assert pseudo.stck1.peek() == 4
+def test_dequeue_2():
+    pseudo = PseudoQueue()
+    pseudo.enqueue(1)
+    pseudo.enqueue(2)
+    pseudo.enqueue(3)
+    pseudo.enqueue(4)
+    pseudo.dequeue()
+    pseudo.dequeue()
+    pseudo.dequeue()
+    assert pseudo.stck1.peek() == 4
 
 
-# def test_dequeue_until_empty():
-#     pseudo = PseudoQueue()
-#     pseudo.enqueue(1)
-#     pseudo.enqueue(2)
-#     pseudo.enqueue(3)
-#     pseudo.enqueue(4)
-#     pseudo.dequeue()
-#     pseudo.dequeue()
-#     pseudo.dequeue()
-#     pseudo.dequeue()
-#     with pytest.raises(AttributeError): 
-#         pseudo.stck1.peek()
+def test_dequeue_until_empty():
+    pseudo = PseudoQueue()
+    pseudo.enqueue(1)
+    pseudo.enqueue(2)
+    pseudo.enqueue(3)
+    pseudo.enqueue(4)
+    pseudo.dequeue()
+    pseudo.dequeue()
+    pseudo.dequeue()
+    pseudo.dequeue()
+    with pytest.raises(AttributeError): 
+        pseudo.stck1.peek()
