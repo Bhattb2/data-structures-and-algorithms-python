@@ -8,9 +8,7 @@ The Stack instances have only push, pop, and peek methods. You should use your o
 
 ## White Board
 ---
-
-
-
+![](assets/qwiths.png)
 ## Example
 ---
 enqueue(value) Input: [10]->[15]->[20] Args: 5 Output: [5]->[10]->[15]->[20]
