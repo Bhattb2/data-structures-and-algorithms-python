@@ -75,12 +75,12 @@ class Queue:
             self.front = new_node
             self.rear = new_node
         
-    def dequeque(self, value):
+    def dequeue(self):
         """
         Does not take any argument. Removes the node fronthe front of the queue.
         Raises the exception when called on empty queue.
         """
-        if self.front():
+        if self.front:
             temp = self.front
             if self.front.next == None:
                 self.front = None
