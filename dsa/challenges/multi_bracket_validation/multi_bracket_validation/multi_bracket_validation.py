@@ -5,7 +5,7 @@ def multi_bracket_validation(input_string):
     last_open = [""]
 
     for x in input_string:
-        if x -- "}":
+        if x == "}":
             if last_open[-1] != "{":
                 print(f'error closing {x}. Does not match opening {last_open[-1]}')
                 return False
@@ -50,6 +50,24 @@ def multi_bracket_validation(input_string):
     else:
         return True
 
-
+#1    
+# print(multi_bracket_validation('{}'))
+# #2
+# print(multi_bracket_validation('{}{}{}'))
+# #3
+# print(multi_bracket_validation('()[[Extra Characters]]'))
+# #4
+# print(multi_bracket_validation('(){}[[]]'))
+# #5
+# print(multi_bracket_validation('{}{Code}[Fellows](())'))
+# #6
+# print(multi_bracket_validation('[({}]'))
+# #7
+# print(multi_bracket_validation('(]('))
+# #8
+# print(multi_bracket_validation('{(})'))
+# #9
+# print(multi_bracket_validation('{}()[(])'))
+# #10
+# print(multi_bracket_validation('}(['))
         
-# print('this is working')
