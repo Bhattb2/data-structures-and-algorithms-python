@@ -126,15 +126,16 @@ class BinarySearchTree(BinaryTree):
 
 
 bst = BinarySearchTree()
-bst.add()
-bst.add()
-bst.add()
-bst.add()
-bst.add()
-bst.add()
-bst.add()
-bst.add()
-bst.add()
+bst.add(10)
+bst.add(8)
+bst.add(17)
+bst.add(23)
+bst.add(3)
+bst.add(-1)
+bst.add(50)
+bst.add(34)
+print(bst.contains(-10))
+
 
 bst.post_order()
 bst.in_order()
@@ -142,10 +143,10 @@ bst.post_order()
 
 
 
-if __name__ == '__main__':
-    tree = BinaryTree()
-    tree.root = Node(4)
-    print(tree.root.value)
+# if __name__ == '__main__':
+#     tree = BinaryTree()
+#     tree.root = Node(4)
+#     print(tree.root.value)
     
 
 
