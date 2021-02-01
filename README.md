@@ -1,5 +1,7 @@
 # Table of contents
+
 ## Algorithms
+
 - [Reverse an Array](dsa/challenges/array_reverse/README.md)
 
 - [Shift an Array](dsa/challenges/array_reverse/README.md)
@@ -23,3 +25,19 @@ A function to:
 - Specificiations used :
 
 - Solution
+
+## Challenges
+
+- [Array Binary Search](./challenges/array_binary_search/README.md)
+- [Array Reverse](./challenges/array_reverse/README.md)
+- [Array Shift](./challenges/array_shift/README.md)
+- [FIFO Animal Shelter](./challenges/fifo_animal_shelter/README.md)
+- [Linked List Zip](./challenges/ll_zip/README.md)
+- [Multi-Bracket Validation](./challenges/multi_bracket_validation/README.md)
+- [Queue with Stacks](./challenges/queue_with_stacks/README.md)
+
+## Data Structures
+
+- [Linked List](./data_structures/linked_list/README.md)
+- [Stacks and Queues](./data_structures/stacks_and_queues/README.md)
+- [Trees](./data_structures/tree/README.md)
