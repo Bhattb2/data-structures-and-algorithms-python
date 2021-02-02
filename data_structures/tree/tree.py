@@ -89,7 +89,7 @@ class BinarySearchTree(BinaryTree):
                 if not node.left:
                     node.left = node_to_add
                 else:
-                    walk(node.right, node_to_add)
+                    walk(node.left, node_to_add)
             else:
                 if not node.right:
                     node.right = node_to_add
