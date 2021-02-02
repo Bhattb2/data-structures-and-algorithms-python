@@ -1,5 +1,5 @@
 import pytest
-from data_structures.tree.tree import Node, BinaryTree, BinarySearchTree
+from data_structures.tree.find_maximum_value import Node, BinaryTree, BinarySearchTree
 
 
 def test_node_exists():
