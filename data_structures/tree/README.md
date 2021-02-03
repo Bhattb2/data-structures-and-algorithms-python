@@ -15,6 +15,7 @@
 
 ## White Board
 
+![](../assets/tree_whtbrd.png)
 
 
 ## Tests
