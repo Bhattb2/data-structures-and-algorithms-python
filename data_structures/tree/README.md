@@ -24,7 +24,7 @@
 
 
 ### Code Challenge 17
-![](../assets/)
+![](../assets/breadth.png)
 
 
 

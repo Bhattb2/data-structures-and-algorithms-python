@@ -12,20 +12,6 @@
 
 - [Implementation: Trees](dsa/challenges/tree/README.md)
 
-_________________________
-
-This is a draft of the reading document: Draft: See solution
-
-A function to:
-
-- Challenge
-
-- Approach & Efficiency
-
-- Specificiations used :
-
-- Solution
-
 ## Challenges
 
 - [Array Binary Search](./challenges/array_binary_search/README.md)
