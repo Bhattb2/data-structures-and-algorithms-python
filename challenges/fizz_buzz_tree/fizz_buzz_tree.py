@@ -40,7 +40,7 @@ class BinaryTree:
             node = queue.pop(0)
 
             if int(node.value) % 15 == 0:
-                newoutput.append('Fizzbuzz')
+                newoutput.append('FizzBuzz')
             elif int(node.value) % 3 == 0:
                 newoutput.append('Fizz')
             elif int(node.value) % 5 ==0:
@@ -48,15 +48,84 @@ class BinaryTree:
             else:
                 newoutput.append('N')
 
-            
+            if node.left:
+                if int(node.left.value) % 15 == 0:
+                    newtree.root.left = "FizzBuzz"
+                elif int(node.left.value) % 3 == 0:
+                    newtree.root.left = "Fizz"
+                elif int(node.left.value) % 5 == 0:
+                    newtree.root.left = "Buzz"
+                else:
+                    newtree.root.left = 'N'
+
+                queue.append(node.left)
+                newqueue.append(node.left)
+
+            if node.right:
+                if int(node.right.value) % 15 == 0:
+                    newtree.root.right = "FizzBuzz"
+                elif int(node.right.value) % 3 == 0:
+                    newtree.rootright = "Fizz"
+                elif int(node.right.value) % 5 == 0:
+                    newtree.root.right = "Buzz"
+                else:
+                    newtree.root.right = 'N'
+
+                queue.append(node.right)
+                newqueue.append(node.right)
+
+            if not queue:
+                break
+
+        print('Newoutput: ', newoutput)
+        return newoutput
 
 
 
+class BinarySearchTree(BinaryTree):
+
+    def add(self, value):
+        """Add a node to the Binary Tree
+        """
+        def walk(node, node_to_add):
+            if not node:
+                return
+
+            if node_to_add.value < node.value:
+                if not node.left:
+                    node.left = node_to_add
+                else:
+                    walk(node.left, node_to_add)
+            else:
+                if not node.right:
+                    node.right = node_to_add
+                else:
+                    walk(node.right, node_to_add)
+
+
+        new_node = Node(value)
+
+        if not self.root:
+            self.root = new_node
+            return
+        
+        walk(self.root, new_node)
 
 
 
+tree = BinarySearchTree()
+tree.add(15)
+tree.add(5)
+tree.add(3)
+tree.add(1)
+tree.add(35)
+tree.add(30)
+tree.add(9)
+tree.add(6)
+tree.add(41)
+tree.add(3)
 
-
+tree.fizzbuzztree()
 
 
 # if __name__ == "__main__":

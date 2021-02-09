@@ -14,3 +14,4 @@
 
 ## White Board
 
+![](../assets/fizzbuzztree.png)
