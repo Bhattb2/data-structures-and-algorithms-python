@@ -21,6 +21,7 @@
 - [Linked List Zip](./challenges/ll_zip/README.md)
 - [Multi-Bracket Validation](./challenges/multi_bracket_validation/README.md)
 - [Queue with Stacks](./challenges/queue_with_stacks/README.md)
+- [Fizz Buzz Tree](..challenges/fizz_buzz_tree/README.md)
 
 ## Data Structures
 
