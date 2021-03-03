@@ -12,20 +12,6 @@
 
 - [Implementation: Trees](dsa/challenges/tree/README.md)
 
-_________________________
-
-This is a draft of the reading document: Draft: See solution
-
-A function to:
-
-- Challenge
-
-- Approach & Efficiency
-
-- Specificiations used :
-
-- Solution
-
 ## Challenges
 
 - [Array Binary Search](./challenges/array_binary_search/README.md)
@@ -35,6 +21,7 @@ A function to:
 - [Linked List Zip](./challenges/ll_zip/README.md)
 - [Multi-Bracket Validation](./challenges/multi_bracket_validation/README.md)
 - [Queue with Stacks](./challenges/queue_with_stacks/README.md)
+- [Fizz Buzz Tree](..challenges/fizz_buzz_tree/README.md)
 
 ## Data Structures
 
