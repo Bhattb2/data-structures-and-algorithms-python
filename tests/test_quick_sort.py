@@ -1,7 +1,5 @@
 from challenges.quick_sort.quick_sort import quick_sort
 
-import quick_sort
-
 def test_merge_sort():
     assert quick_sort
 
@@ -11,7 +9,7 @@ def test_merge_sort_1():
     left = 0
     n = len(arr)
     right = n - 1
-    result = quick_sort.quick_sort(arr,left,right)
+    result = quick_sort(arr,left,right)
     assert result == [4,8,15,16,23,42]
 
 
@@ -20,7 +18,7 @@ def test_merge_sort_2():
     left = 0
     n = len(arr)
     right = n - 1
-    result = quick_sort.quick_sort(arr,left,right)
+    result = quick_sort(arr,left,right)
     assert result == [-2,5,8,12,18,20]
 
 
@@ -29,7 +27,7 @@ def test_merge_sort_3():
     left = 0
     n = len(arr)
     right = n - 1
-    result = quick_sort.quick_sort(arr,left,right)
+    result = quick_sort(arr,left,right)
     assert result == [5,5,5,7,7,12]
 
 
@@ -38,5 +36,5 @@ def test_merge_sort_4():
     left = 0
     n = len(arr)
     right = n - 1
-    result = quick_sort.quick_sort(arr,left,right)
+    result = quick_sort(arr,left,right)
     assert result == [2,3,5,7,11,13]

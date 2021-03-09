@@ -23,7 +23,8 @@
 - [Queue with Stacks](./challenges/queue_with_stacks/README.md)
 - [Fizz Buzz Tree](..challenges/fizz_buzz_tree/README.md)
 - [Insertion Sort](.challenges/insertion_sort/README.md)
-- [Insertion Sort](.challenges/merge_sort/README.md)
+- [Merge Sort](.challenges/merge_sort/README.md)
+- [Quick Sort](.challenges/quick_sort/README.md)
 
 ## Data Structures
 
