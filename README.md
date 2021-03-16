@@ -25,6 +25,8 @@
 - [Insertion Sort](.challenges/insertion_sort/README.md)
 - [Merge Sort](.challenges/merge_sort/README.md)
 - [Quick Sort](.challenges/quick_sort/README.md)
+- [Hashtable](.challenges/hashtable/README.md)
+- [Repeated Word](.challenges/repeated_word/README.md)
 
 ## Data Structures
 
