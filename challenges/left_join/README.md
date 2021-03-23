@@ -11,8 +11,9 @@ Implement a simplified LEFT JOIN for 2 Hashmaps
 - LEFT JOIN means all the values in the first hashmap are returned, and if values exist in the “right” hashmap, they are appended to the result row. If no values exist in the right hashmap, then some flavor of NULL should be appended to the result row.
 - The returned data structure that holds the results is up to you. It doesn’t need to exactly match the output below, so long as it achieves the LEFT JOIN logic.
 
-White Board
+## White Board
 
+![](../assets/leftjoin.png)
 
 ## Tests
 
