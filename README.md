@@ -25,12 +25,10 @@
 - [Insertion Sort](.challenges/insertion_sort/README.md)
 - [Merge Sort](.challenges/merge_sort/README.md)
 - [Quick Sort](.challenges/quick_sort/README.md)
-<<<<<<< HEAD
 - [Tree Intersection](.challenges/tree_intrsection/README.md)
-=======
 - [Hashtable](.challenges/hashtable/README.md)
 - [Repeated Word](.challenges/repeated_word/README.md)
->>>>>>> 6bae27d73ac01b8ec748b8a73c386548d79994d8
+- [Graph](.challneges/graph/README.md)
 
 ## Data Structures
 
