@@ -1,0 +1,16 @@
+<mxfile>
+    <diagram id="IkowGc9jAoI87RHGSiXA" name="Page-1">
+        <mxGraphModel dx="1131" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;font color=&quot;#ff8000&quot;&gt;&lt;span style=&quot;font-weight: bold ; font-size: 14px&quot;&gt;Problem Domain:&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Write a function that LEFT JOINS two hashmaps int a singlr data structure.&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="30" width="410" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;font color=&quot;#ff8000&quot;&gt;&lt;span style=&quot;font-weight: bold ; font-size: 14px&quot;&gt;Visuals:&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;font&gt;&lt;b&gt;Input&lt;/b&gt;&lt;br&gt;&lt;b&gt;ht1 = [ ['fond'. 'enamored'], ['wrath', 'anger'], ['dilligent', 'employed'], ['outfit', 'garb'], ['guide', 'usher'] ]&lt;/b&gt;&lt;br&gt;&lt;b&gt;ht2 = [ ['fond', 'averse'], ['wrath', 'delight'], ['dilligent', 'idle'], ['guide', 'follow'], ['flow', 'jam'] ]&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-weight: bold ; font-size: 13px&quot;&gt;Output&lt;br&gt;&lt;/font&gt;ht3 = [ [ 'fond', 'enamored', 'averse'], ['wrath', 'anger', 'delight'], ['dilligent', 'employed', 'idle'], ['outfit', 'garb', None],['guide', 'usher', 'follow'] ]&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;BigO&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;br&gt;Time: O(n)&lt;br&gt;Space: O(n)&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Algorithm:&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;left_join&lt;br&gt;---&amp;nbsp; &amp;nbsp; Instatiate a new hashtable&lt;br&gt;---&amp;nbsp; &amp;nbsp; Get all tehkeys from ht1&lt;br&gt;---&amp;nbsp; &amp;nbsp; For each key in ht1, check if the key exists in ht2&lt;br&gt;&amp;nbsp; &amp;nbsp; ---&amp;nbsp; &amp;nbsp; if yes:&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ---&amp;nbsp; &amp;nbsp; Grab the value for the particular key&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; ---&amp;nbsp; &amp;nbsp; Append key, value from ht1, value from ht2&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;linkedlist&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;br&gt;---&amp;nbsp; &amp;nbsp; add function get_keys&lt;br&gt;---&amp;nbsp; &amp;nbsp; Get all the keys from each bucket(Ll) in the hashtable&lt;br&gt;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="120" width="740" height="470" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
