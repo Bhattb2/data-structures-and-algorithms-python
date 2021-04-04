@@ -81,5 +81,31 @@ class Graph:
 
 if __name__ == "__main":
     trip = Graph
+    trip = Graph()
+    city1 = trip.add_vertex('Seattle')
+    city2 = trip.add_vertex('Portland')
+    city3 = trip.add_vertex('San Francisco')
+    city4 = trip.add_vertex('Salt Lake City')
+    city5 = trip.add_vertex('Spokane')
+    city6 = trip.add_vertex('Los Angeles')
+    trip.add_edge(city1, city2, 10)
+    trip.add_edge(city2, city1, 11)
+    trip.add_edge(city2, city3, 12)
+    trip.add_edge(city3, city2, 13)
+    trip.add_edge(city3, city4, 14)
+    trip.add_edge(city4, city3, 15)
+    trip.add_edge(city4, city5, 16)
+    trip.add_edge(city5, city4, 17)
+    trip.add_edge(city5, city6, 18)
+    trip.add_edge(city6, city5, 19)
+    trip.add_edge(city3, city5, 20)
+    trip.add_edge(city5, city3, 21)
+    trip.add_edge(city1, city6, 22)
+    trip.add_edge(city6, city1, 23)
 
+    # print(trip.get_vertices())
+    # print(trip.get_neighbours(city6))
+    # print(trip.size())
+
+print(trip.breathfirst_graph(city1))
 
