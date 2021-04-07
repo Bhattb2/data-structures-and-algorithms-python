@@ -5,6 +5,8 @@
 
 ## White Board
 
+![](/challenges/assets/depthfirst.png)
+
 ## Author
 
 Bhagirath Bhatt

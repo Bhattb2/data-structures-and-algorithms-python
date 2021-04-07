@@ -1,44 +1,59 @@
 <mxfile>
     <diagram id="EfKQRq1lan6VolqJtTq9" name="Page-1">
-        <mxGraphModel dx="2574" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
+        <mxGraphModel dx="2016" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="&lt;font color=&quot;#ff8000&quot;&gt;&lt;span style=&quot;font-weight: bold ; font-size: 13px&quot;&gt;Problem Domain:&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Implement a depth-firsr traversal on a graph&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+                <mxCell id="2" value="&lt;font color=&quot;#ff8000&quot;&gt;&lt;span style=&quot;font-weight: bold ; font-size: 13px&quot;&gt;Problem Domain:&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Implement a depth-firsr traversal on a graph&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
                     <mxGeometry x="-1320" y="40" width="250" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot; color=&quot;#ff8000&quot;&gt;Visual:&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+                <mxCell id="3" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot; color=&quot;#ff8000&quot;&gt;Visual:&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
                     <mxGeometry x="-1320" y="120" width="60" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5" target="6">
+                <mxCell id="10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF8000;" parent="1" source="5" target="6" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="&lt;font color=&quot;#ff8000&quot; size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 14px&quot;&gt;A&lt;/b&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="5" value="&lt;font color=&quot;#ff8000&quot; size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 14px&quot;&gt;A&lt;/b&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="-1290" y="160" width="60" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6" target="7">
+                <mxCell id="12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF8000;" parent="1" source="6" target="7" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="&lt;b style=&quot;font-size: 14px&quot;&gt;&lt;font color=&quot;#ff8000&quot;&gt;B&lt;/font&gt;&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="6" value="&lt;b style=&quot;font-size: 14px&quot;&gt;&lt;font color=&quot;#ff8000&quot;&gt;B&lt;/font&gt;&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="-1170" y="160" width="60" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot; color=&quot;#ff8000&quot;&gt;C&lt;/font&gt;&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="7" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot; color=&quot;#ff8000&quot;&gt;C&lt;/font&gt;&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="-1170" y="270" width="60" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8" target="5">
+                <mxCell id="11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF8000;" parent="1" source="8" target="5" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="&lt;font style=&quot;font-size: 14px&quot; color=&quot;#ff8000&quot;&gt;&lt;b&gt;D&lt;/b&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="8" value="&lt;font style=&quot;font-size: 14px&quot; color=&quot;#ff8000&quot;&gt;&lt;b&gt;D&lt;/b&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="-1290" y="270" width="60" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot; color=&quot;#ff8000&quot;&gt;E&lt;/font&gt;&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="9" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot; color=&quot;#ff8000&quot;&gt;E&lt;/font&gt;&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="-1050" y="270" width="60" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;rotation=-45;" vertex="1" parent="1">
-                    <mxGeometry x="-1250.2" y="239.53" width="111.34" height="10" as="geometry"/>
+                <mxCell id="20" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot; color=&quot;#ff8000&quot;&gt;Start Node = A, B, D, C, E&lt;br&gt;&lt;br&gt;Output:&lt;br&gt;&lt;br&gt;&lt;br&gt;Complexity:&lt;br&gt;Space: O(1)&amp;nbsp; &amp;nbsp;Time: O(n)&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1318.86" y="360" width="180" height="110" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;rotation=-140;" vertex="1" parent="1">
-                    <mxGeometry x="-1138.86" y="239.53" width="112.48" height="10" as="geometry"/>
+                <mxCell id="21" value="" style="endArrow=classic;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;strokeColor=#FF8000;" edge="1" parent="1" source="6" target="8">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-1220" y="270" as="sourcePoint"/>
+                        <mxPoint x="-1170" y="220" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="" style="endArrow=classic;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;strokeColor=#FF8000;" edge="1" parent="1" source="6" target="9">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-1110" y="240" as="sourcePoint"/>
+                        <mxPoint x="-1060" y="190" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot; color=&quot;#ff8000&quot;&gt;Algorithm:&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#ff8000&quot;&gt;- create avariabel to keep track of visited vertices&lt;br&gt;- create a function that takes in a visited, a graph and a vertex&lt;br&gt;- the given vertex will be the graph.root&lt;br&gt;- traverse theough the nodes&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - mark each visited node as True&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - move to a neighbor node that has not been visited&lt;br&gt;- repeat until all nodes have been visited&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+                    <mxGeometry x="-920" y="40" width="340" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="&lt;font color=&quot;#ff8000&quot;&gt;&lt;b style=&quot;font-size: 14px&quot;&gt;Pseudo:&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;visited =&lt;/font&gt;&lt;b style=&quot;font-size: 14px&quot;&gt;&amp;nbsp;[ ]&lt;br&gt;&lt;/b&gt;def depth_first_graph(visited, graph, vertex):&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;output = [ ]&lt;br&gt;&amp;nbsp; &amp;nbsp; if vertex not in visited:&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; output.append(vertex.value)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; visited.append(vertex)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; for neighbor in graph[vertex]:&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; depth_first_graph(visited, graph, neighbor)&lt;br&gt;&amp;nbsp; &amp;nbsp; &lt;br&gt;&amp;nbsp; &amp;nbsp; return output&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+                    <mxGeometry x="-920" y="200" width="290" height="180" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
