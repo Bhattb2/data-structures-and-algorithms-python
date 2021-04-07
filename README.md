@@ -27,9 +27,11 @@
 - [Quick Sort](.challenges/quick_sort/README.md)
 - [Tree Intersection](.challenges/tree_intrsection/README.md)
 - [Hashtable](.challenges/hashtable/README.md)
+- [Hash Table Left Join](.challenges/left_join/README.md)
 - [Repeated Word](.challenges/repeated_word/README.md)
 - [Graph](.challneges/graph/README.md)
-- [Hash Table Left Join](.challenges/left_join/README.md
+- [Breadth First](.challenges/breadthfirst_graoph/README.md)
+- [Depth First](.challenges/depth_first/README.md)
 
 ## Data Structures
 
